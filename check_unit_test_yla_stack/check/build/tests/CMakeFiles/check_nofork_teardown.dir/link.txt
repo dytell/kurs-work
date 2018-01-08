@@ -1,0 +1,1 @@
+/usr/bin/cc  -g  -Wl,--enable-auto-import CMakeFiles/check_nofork_teardown.dir/check_nofork_teardown.c.o  -o check_nofork_teardown.exe -Wl,--out-implib,libcheck_nofork_teardown.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ../src/libcheck.a ../lib/libcompat.a -lm -lrt 

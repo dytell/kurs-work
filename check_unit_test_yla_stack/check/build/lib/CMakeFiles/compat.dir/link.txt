@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libcompat.a  CMakeFiles/compat.dir/libcompat.c.o CMakeFiles/compat.dir/fpclassify.c.o
+/usr/bin/ranlib.exe libcompat.a

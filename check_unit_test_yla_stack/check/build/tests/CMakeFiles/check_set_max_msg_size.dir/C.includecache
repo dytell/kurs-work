@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/tests/check_check.h
+
+/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/tests/check_set_max_msg_size.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+check.h
+-
+config.h
+/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/tests/config.h
+check_check.h
+/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/tests/check_check.h
+
+check_stdint.h
+stdint.h
+-
+
+config.h
+
+tests/../src/check.h
+stddef.h
+-
+string.h
+-
+math.h
+-
+float.h
+-
+check_stdint.h
+-
+sys/types.h
+-
+

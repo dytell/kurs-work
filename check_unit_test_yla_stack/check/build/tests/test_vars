@@ -1,0 +1,20 @@
+# defined to 1 if subunit is enabled
+ENABLE_SUBUNIT=0
+export ENABLE_SUBUNIT
+EXEEXT=
+export EXEEXT
+HAVE_FORK=1
+export HAVE_FORK
+
+# path of the tests directory
+if [ x"/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/tests" != x"." ]; then
+    if [ -z "" -o "" != "1" ]; then
+       SRCDIR="/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/tests/"
+    else
+       SRCDIR="/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/tests\\"
+    fi
+else
+    SRCDIR=""
+fi
+
+export SRCDIR

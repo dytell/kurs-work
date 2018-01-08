@@ -1,0 +1,202 @@
+Determining if the function _getpid exists failed with the following output:
+Change Dir: /cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_a4209/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a4209.dir/build.make CMakeFiles/cmTC_a4209.dir/build
+make[1]: вход в каталог «/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_a4209.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_getpid   -o CMakeFiles/cmTC_a4209.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.6.2/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a4209.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_a4209.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_getpid  -Wl,--enable-auto-import  CMakeFiles/cmTC_a4209.dir/CheckFunctionExists.c.o  -o cmTC_a4209.exe -Wl,--out-implib,libcmTC_a4209.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+CMakeFiles/cmTC_a4209.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:(.text+0x15): undefined reference to `_getpid'
+CMakeFiles/cmTC_a4209.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:(.text+0x15): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `_getpid'
+collect2: ошибка: выполнение ld завершилось с кодом возврата 1
+make[1]: *** [CMakeFiles/cmTC_a4209.dir/build.make:98: cmTC_a4209.exe] Ошибка 1
+make[1]: выход из каталога «/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:126: cmTC_a4209/fast] Ошибка 2
+
+
+Determining if the function _strdup exists failed with the following output:
+Change Dir: /cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_c80f8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c80f8.dir/build.make CMakeFiles/cmTC_c80f8.dir/build
+make[1]: вход в каталог «/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_c80f8.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=_strdup   -o CMakeFiles/cmTC_c80f8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.6.2/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c80f8.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_c80f8.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strdup  -Wl,--enable-auto-import  CMakeFiles/cmTC_c80f8.dir/CheckFunctionExists.c.o  -o cmTC_c80f8.exe -Wl,--out-implib,libcmTC_c80f8.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+CMakeFiles/cmTC_c80f8.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:(.text+0x15): undefined reference to `_strdup'
+CMakeFiles/cmTC_c80f8.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:(.text+0x15): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `_strdup'
+collect2: ошибка: выполнение ld завершилось с кодом возврата 1
+make[1]: *** [CMakeFiles/cmTC_c80f8.dir/build.make:98: cmTC_c80f8.exe] Ошибка 1
+make[1]: выход из каталога «/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:126: cmTC_c80f8/fast] Ошибка 2
+
+
+Determining size of __int64 failed with the following output:
+Change Dir: /cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_cef0c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cef0c.dir/build.make CMakeFiles/cmTC_cef0c.dir/build
+make[1]: вход в каталог «/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_cef0c.dir/__INT64.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_cef0c.dir/__INT64.c.o   -c /cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CheckTypeSize/__INT64.c
+/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CheckTypeSize/__INT64.c:17:22: ошибка: «__int64» не описан здесь (не в функции)
+ #define SIZE (sizeof(__int64))
+                      ^
+/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CheckTypeSize/__INT64.c:19:12: замечание: in expansion of macro «SIZE»
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_cef0c.dir/build.make:66: CMakeFiles/cmTC_cef0c.dir/__INT64.c.o] Ошибка 1
+make[1]: выход из каталога «/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:126: cmTC_cef0c/fast] Ошибка 2
+
+/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CheckTypeSize/__INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of unsigned __int64 failed with the following output:
+Change Dir: /cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_01682/fast"
+/usr/bin/make -f CMakeFiles/cmTC_01682.dir/build.make CMakeFiles/cmTC_01682.dir/build
+make[1]: вход в каталог «/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_01682.dir/UNSIGNED___INT64.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_01682.dir/UNSIGNED___INT64.c.o   -c /cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c
+/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:17:31: ошибка: expected «)» before «__int64»
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:19:12: замечание: in expansion of macro «SIZE»
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:17:31: ошибка: expected «)» before «__int64»
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:20:12: замечание: in expansion of macro «SIZE»
+   ('0' + ((SIZE / 1000)%10)),
+            ^~~~
+/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:17:31: ошибка: expected «)» before «__int64»
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:21:12: замечание: in expansion of macro «SIZE»
+   ('0' + ((SIZE / 100)%10)),
+            ^~~~
+/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:17:31: ошибка: expected «)» before «__int64»
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:22:12: замечание: in expansion of macro «SIZE»
+   ('0' + ((SIZE / 10)%10)),
+            ^~~~
+/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:17:31: ошибка: expected «)» before «__int64»
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:23:12: замечание: in expansion of macro «SIZE»
+   ('0' +  (SIZE    % 10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_01682.dir/build.make:66: CMakeFiles/cmTC_01682.dir/UNSIGNED___INT64.c.o] Ошибка 1
+make[1]: выход из каталога «/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:126: cmTC_01682/fast] Ошибка 2
+
+/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function subunit_test_start exists in the subunit failed with the following output:
+Change Dir: /cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_03df5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_03df5.dir/build.make CMakeFiles/cmTC_03df5.dir/build
+make[1]: вход в каталог «/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_03df5.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=subunit_test_start   -o CMakeFiles/cmTC_03df5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.6.2/Modules/CheckFunctionExists.c
+Linking C executable cmTC_03df5.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_03df5.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=subunit_test_start  -Wl,--enable-auto-import  CMakeFiles/cmTC_03df5.dir/CheckFunctionExists.c.o  -o cmTC_03df5.exe -Wl,--out-implib,libcmTC_03df5.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lsubunit 
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/bin/ld: cannot find -lsubunit
+collect2: ошибка: выполнение ld завершилось с кодом возврата 1
+make[1]: *** [CMakeFiles/cmTC_03df5.dir/build.make:98: cmTC_03df5.exe] Ошибка 1
+make[1]: выход из каталога «/cygdrive/d/kurs/teach-yla-vm/check_unit_test_yla_stack/check/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:126: cmTC_03df5/fast] Ошибка 2
+
+
