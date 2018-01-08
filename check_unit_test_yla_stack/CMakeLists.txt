@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8)
 include_directories(../hdrs)
 include_directories(check/build/src/check.h)
 
-set(EXTRA_LIBS m rt pthread subunit)
+set(EXTRA_LIBS m rt pthread)
 
 project(positiv_test_check)
 
