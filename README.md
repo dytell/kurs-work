@@ -1,10 +1,10 @@
 teach-yla-vm
 ============
 
-Дерево каталогов
+Как запустить
 ----------------
-
-dir /fonts|/teach-yla-vm<dd>
+### Дерево каталогов
+|/teach-yla-vm<dd>
 |---|/check_unit_test_yla<dd>
 |---|---|/check<dd>
 |---|---|yla_stack_negativ_test.c<dd>
@@ -26,6 +26,28 @@ dir /fonts|/teach-yla-vm<dd>
 |---|CMakeLists.txt<dd>
 |LICENSE
 |README.md
+### Как запустить Тест Ctest
+$ mkdir build<dd>
+$ cd build<dd>
+$ cmake ../<dd>
+$ make<dd>
+$ ctest<dd>
+### ПОлное описание пройденых тестов
+$ mkdir build<dd>
+$ cd build<dd>
+$ cmake ../<dd>
+$ make<dd>
+$ ctes<dd>
+$ cd Testing/Temporary<dd>
+$ nano LastTest.log<dd>
+### Как запустить Тест Check
+$ mkdir build<dd>
+$ cd build<dd>
+$ cmake ../<dd>
+$ make<dd>
+$ cd check_unit_test_yla<dd>
+$ ./yla_stack_positiv_test<dd>
+$ ./yla_stack_negativ_test<dd>
 
 
 
