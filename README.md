@@ -4,7 +4,7 @@ teach-yla-vm
 Дерево каталогов
 ----------------
 
-|/teach-yla-vm<dd>dir /fonts
+dir /fonts|/teach-yla-vm<dd>
 |---|/check_unit_test_yla<dd>
 |---|---|/check<dd>
 |---|---|yla_stack_negativ_test.c<dd>
