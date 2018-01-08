@@ -3,14 +3,14 @@ teach-yla-vm
 
 Дерево каталогов
 ----------------
-teach-yla-vm
-|/check_unit_test_yla
-|	|/check
-|	|yla_stack_negativ_test.c
-|	|yla_stack_positiv_test.c
-|	|CMakeTests.txt
-|/hdrs
-|	|yla_cop.h
+teach-yla-vm<dd>
+|/check_unit_test_yla<dd>
+|	|/check<dd>
+|	|yla_stack_negativ_test.c<dd>
+|	|yla_stack_positiv_test.c<dd>
+|	|CMakeTests.txt<dd>
+|/hdrs<dd>
+|	|yla_cop.h<dd>
 |	|yla_stack.h
 |	|yla_type.h
 |	|yla_vm.h
