@@ -6,7 +6,7 @@ teach-yla-vm
 ### Структура директорий
 
 
-.<dd>
+.
 ./check_unit_test_yla<dd>
 ./check_unit_test_yla/check<dd>
 ./check_unit_test_yla/yla_stack_negativ_test.c<dd>
@@ -29,13 +29,13 @@ teach-yla-vm
 ./LICENSE
 ./README.md
 ### Как запустить Тест Ctest
-$ mkdir build<dd>
+$ mkdir build
 $ cd build<dd>
 $ cmake ../<dd>
 $ make<dd>
 $ ctest<dd>
 ### ПОлное описание пройденых тестов
-$ mkdir build<dd>
+$ mkdir build
 $ cd build<dd>
 $ cmake ../<dd>
 $ make<dd>
@@ -43,7 +43,7 @@ $ ctes<dd>
 $ cd Testing/Temporary<dd>
 $ nano LastTest.log<dd>
 ### Как запустить Тест Check
-$ mkdir build<dd>
+$ mkdir build
 $ cd build<dd>
 $ cmake ../<dd>
 $ make<dd>
